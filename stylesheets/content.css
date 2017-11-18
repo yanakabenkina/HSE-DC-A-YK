@@ -64,6 +64,10 @@ h1 + p + p {
   margin-top: 33px;
 }
 
+h1 + p + p, h1 + p + blockquote {
+  margin-top: 33px;
+}
+
 
 a {
   color: inherit;
@@ -79,11 +83,23 @@ a:visited {
 }
 
 blockquote {
-  font-size: 22px;
-  line-height: 32px;
   margin-top: 33px;
   margin-bottom: 33px;
   font-style: italic;
+  position: relative;
+}
+
+blockquote::before {
+  content: '';
+  display: block;
+  width: 3px;
+  height: 100%;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  height: 100%;
+
 }
 
 ul {
@@ -98,4 +114,9 @@ ul {
 li {
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+img {
+  width: 100%;
+  margin-top: 13px;
 }
