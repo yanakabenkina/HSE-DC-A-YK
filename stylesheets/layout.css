@@ -1,0 +1,17 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+    /*background-image: url(../images/mockup.jpg);
+    background-size: 800px 20624px;
+    background-position: top center;
+    background-repeat: no-repeat;*/
+}
+
+* {
+  box-sizing: border-box;
+}
+a:visited {
+  color: inherit;
+}
