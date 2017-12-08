@@ -2,9 +2,9 @@
   position: fixed;
   width: 250px;
   background-color: pink;
-  z-index: 1;
+  /*z-index: 1;
   opacity: .1;
-  transition: all 200ms ease-out;
+  transition: all 200ms ease-out;*/
 }
 
 .sidebar:hover {
@@ -13,4 +13,36 @@
 
 .sidebar a {
 text-decoration: none;
+}
+
+
+.sidebar ul {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 7px;
+  line-height: 15px;
+  font-size: 13px;
+}
+
+.sidebar ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*.sidebar ul :first-child {
+  font-weight: bold;
+}*/
+
+.sidebar ul ul {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: gray;
+  line-height: 15px;
+}
+
+.sidebar ul ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
