@@ -1,4 +1,4 @@
-article {
+article > * {
   width: 700px;
   margin: 0 auto;
 }
@@ -96,9 +96,7 @@ article blockquote::before {
 article ul {
   font-size: 22px;
   line-height: 32px;
-  margin-top: 33px;
-  margin-bottom: 33px;
-  margin-left: 22px;
+  margin: 29px auto;
   list-style-type: disc;
 }
 
@@ -107,8 +105,7 @@ article li {
   margin-bottom: 12px;
 }
 
-img {
-  width: 100%;
-  margin-top: 13px;
-  margin-bottom: 13px;
+article img {
+  margin: 30px 130px;
+  width: 1020px;
 }
