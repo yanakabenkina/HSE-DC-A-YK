@@ -1,0 +1,28 @@
+.btn {
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.small {
+  height: 40px;
+  width: 250px;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.large {
+
+}
+
+.white {
+  background-color: white;
+  border-color: #cccccc;
+  color: #666666;
+}
+
+.green {
+
+}
