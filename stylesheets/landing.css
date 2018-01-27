@@ -1,9 +1,9 @@
-.landing.bg {
+/*.landing.bg {
   background-image: url(../images/landing/index_mockup.png);
   background-size: 1440px 3200px;
   background-position: center -10px;
   background-repeat: no-repeat;
-}
+}*/
 
 .landingWrapper {
   position: relative;
