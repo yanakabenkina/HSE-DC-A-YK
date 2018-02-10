@@ -277,5 +277,101 @@
     width: 960px;
     height: 555px;
   }
+}
 
+@media all and (max-width: 910px) {
+  .landing.bg {
+    background-image: url(../images/landing/index_mockup_ipad_portrait.png);
+    background-size: 768px 4180px;
+  }
+
+  .landingWrapper .mainSection {
+    width: 768px;
+    min-width: 768px;
+    height: 950px;
+  }
+
+  .landingWrapper .mainSection h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .landingWrapper .mainSection p {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .landingWrapper .mainSection .textWrapper {
+    margin: auto;
+  }
+
+  .landingWrapper .mainSection:first-child .textWrapper {
+    margin: auto;
+  }
+
+  .landingWrapper .mainSection .textWrapper,
+  .landingWrapper .mainSection:first-child .textWrapper  {
+    position: relative;
+    top: auto;
+    width: 580px;
+  }
+
+  .landingWrapper .mainSection.left .textWrapper,
+  .landingWrapper .mainSection.right .textWrapper {
+    left: auto;
+    right: auto;
+  }
+
+  .landingWrapper .mainSection h2 + p {
+    margin-top: 21px;
+  }
+
+  .landingWrapper .mainSection .pattern {
+    width: 210px;
+    height: 20px;
+  }
+
+  .landingWrapper .mainSection.left .pattern,
+  .landingWrapper .mainSection.right .pattern {
+    margin-top: 88px;
+    margin-left: -55px;
+  }
+
+  .landingWrapper .mainSection:nth-child(3) .pattern {
+    margin-top: 90px;
+    margin-left: 400px;
+  }
+
+  .landingWrapper .mainSection:first-child .pattern {
+    margin-top: 133px;
+  }
+
+  .landingWrapper .mainSection.center h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  #mockup1 {
+    opacity: 0.5;
+    left: 251px;
+    top: 352px;
+    width: 624px;
+    height: 563px;
+  }
+
+  #mockup2 {
+    opacity: 0.5;
+    left: 262px;
+    top: 400px;
+    width: 464px;
+    height: 588px;
+  }
+
+  #mockup3 {
+    opacity: 0.5;
+    left: 36px;
+    top: 569px;
+    width: 835px;
+    height: 483px;
+  }
 }
