@@ -24,6 +24,7 @@
 .postsFeed .postCard {
   display: block;
   border: 1px solid rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
   box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
   background-color:#ffffff;
   border-radius: 5px;
@@ -70,5 +71,6 @@
       vertical-align: middle;
       width: 702px;
       height: 202px;
+      -o-object-fit: cover;
       object-fit: cover;
         }
